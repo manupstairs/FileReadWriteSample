@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileReadWriteSample", "FileReadWriteSample\FileReadWriteSample.csproj", "{98AD396A-F86F-4684-A3D4-AA62A6C78282}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateWriteSharedFile", "FileReadWriteSample\CreateWriteSharedFile.csproj", "{98AD396A-F86F-4684-A3D4-AA62A6C78282}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadSharedFile", "ReadSharedFile\ReadSharedFile.csproj", "{C88E13BE-AE75-47BD-A716-CB8344DF364F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadSharedFile", "ReadSharedFile\ReadSharedFile.csproj", "{C88E13BE-AE75-47BD-A716-CB8344DF364F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
