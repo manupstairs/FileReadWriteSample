@@ -8,5 +8,5 @@ var reader = new StreamReader(fileStream);
 while (!reader.EndOfStream)
 {
     Console.WriteLine(reader.ReadLine());
-    Task.Delay(1000);
+    await Task.Delay(1000);
 }

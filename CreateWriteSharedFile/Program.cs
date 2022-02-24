@@ -10,6 +10,8 @@ while (true)
     for (var i = 0; i < 10; i++)
     {
         sw.WriteLine(cout++);
+        Console.WriteLine(cout);
     }
-    Task.Delay(3000);
+    sw.Flush();
+    await Task.Delay(1000);
 }

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateWriteSharedFile", "FileReadWriteSample\CreateWriteSharedFile.csproj", "{98AD396A-F86F-4684-A3D4-AA62A6C78282}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadSharedFile", "ReadSharedFile\ReadSharedFile.csproj", "{C88E13BE-AE75-47BD-A716-CB8344DF364F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateWriteSharedFile", "CreateWriteSharedFile\CreateWriteSharedFile.csproj", "{7054B618-8B94-4A00-8495-788BDD11EA1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{98AD396A-F86F-4684-A3D4-AA62A6C78282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{98AD396A-F86F-4684-A3D4-AA62A6C78282}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{98AD396A-F86F-4684-A3D4-AA62A6C78282}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{98AD396A-F86F-4684-A3D4-AA62A6C78282}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C88E13BE-AE75-47BD-A716-CB8344DF364F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C88E13BE-AE75-47BD-A716-CB8344DF364F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C88E13BE-AE75-47BD-A716-CB8344DF364F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C88E13BE-AE75-47BD-A716-CB8344DF364F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7054B618-8B94-4A00-8495-788BDD11EA1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7054B618-8B94-4A00-8495-788BDD11EA1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7054B618-8B94-4A00-8495-788BDD11EA1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7054B618-8B94-4A00-8495-788BDD11EA1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
