@@ -2,7 +2,7 @@
 Console.WriteLine("Try to read someting!");
 
 var path =Path.Combine( Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "TestFile.txt");
-var fileStream = new FileStream(path, FileMode.Open, FileAccess.Read,FileShare.ReadWrite);
+var fileStream = new FileStream(path, FileMode.Open, FileAccess.Read,FileShare.Write);
 var reader = new StreamReader(fileStream);
 
 while (!reader.EndOfStream)
